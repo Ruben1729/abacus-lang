@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83966216-465d-41e7-a694-e55eab20a5f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/abacus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compilation_utils/asm_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compilation_utils/fsm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compilation_utils/lexer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compilation_utils/tokens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.abacus" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compilation_utils/compiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compilation_utils/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/fib/fibonacci.abacus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abacus.py" beforeDir="false" afterPath="$PROJECT_DIR$/abacus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilation_utils/asm_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/compilation_utils/asm_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilation_utils/fsm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilation_utils/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/compilation_utils/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilation_utils/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/compilation_utils/tokens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.abacus" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +125,12 @@
       <workItem from="1635717542230" duration="4018000" />
       <workItem from="1635722907907" duration="513000" />
       <workItem from="1635723445444" duration="109667000" />
-      <workItem from="1636132820788" duration="17697000" />
+      <workItem from="1636132820788" duration="80518000" />
+      <workItem from="1636477290982" duration="706000" />
+      <workItem from="1636479011163" duration="21362000" />
+      <workItem from="1636523395464" duration="2780000" />
+      <workItem from="1636752639826" duration="2533000" />
+      <workItem from="1636758317036" duration="8230000" />
     </task>
     <servers />
   </component>
@@ -138,6 +147,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

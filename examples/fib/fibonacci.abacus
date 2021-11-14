@@ -1,0 +1,24 @@
+0 1
+
+# Fibonacci sequence with for
+1 0 for dup 10 <= do
+    # 0 1 1 0 -> 0 1 1 0 0 -> 0 1 1 0 0 1
+    3 copy 3 copy
+    # 0 1 1 0 0 1 -> 0 1 1 0 0 1 0
+    over print
+    # 0 1 1 0 0 1 -> 0 1 1 0 1 0 -> 0 1 1 0 1 0 1 -> 0 1 1 0 1 1
+    swap over +
+    # 0 1 1 0 1
+    3 drop
+    # 1 1 1 0
+    3 drop
+end pop pop # clear the stack
+
+
+# Fibonacci sequence generator with a while loop
+0 1 while over 1000 < do
+    # 0 1 0 -> 0 1
+    over print
+    # 1 0 -> 1 0 1 -> 1 1
+    swap over +
+end pop pop # clear the stack

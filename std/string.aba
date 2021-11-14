@@ -1,0 +1,5 @@
+fn printString
+    while dup 0 != do
+        print_char
+    end
+end
