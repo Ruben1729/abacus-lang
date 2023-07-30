@@ -13,36 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83966216-465d-41e7-a694-e55eab20a5f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/addition.aba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/fibonacci.aba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/ifelse.aba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/stack_manipulation.aba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/subtraction.aba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/while.aba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compiler.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lexer.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulator.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/simple_addition.aba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/simple_subtraction.aba" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abacus.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilation_utils/asm_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilation_utils/compiler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilation_utils/lexer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilation_utils/parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilation_utils/tokens.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/fib/fibonacci.abacus" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/fib/fibonacci.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/fib/fibonacci.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/fib/fibonacci.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/std/string.aba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.aba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.obj" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +162,7 @@
       <workItem from="1636752639826" duration="2533000" />
       <workItem from="1636758317036" duration="8230000" />
       <workItem from="1690724444935" duration="12179000" />
-      <workItem from="1690736823637" duration="11739000" />
+      <workItem from="1690736823637" duration="12423000" />
     </task>
     <servers />
   </component>
