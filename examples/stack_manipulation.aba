@@ -1,0 +1,8 @@
+// prints 5
+4 5 swap print
+
+// prints 6
+6 dup pop print
+
+// prints 7
+7 8 1 copy print

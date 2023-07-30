@@ -1,27 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="83966216-465d-41e7-a694-e55eab20a5f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/compilation_utils/compiler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compilation_utils/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/fib/fibonacci.abacus" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/addition.aba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/fibonacci.aba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ifelse.aba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/stack_manipulation.aba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/subtraction.aba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/while.aba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lexer.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parser.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simulator.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/simple_addition.aba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/simple_subtraction.aba" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abacus.py" beforeDir="false" afterPath="$PROJECT_DIR$/abacus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilation_utils/asm_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/compilation_utils/asm_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilation_utils/fsm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilation_utils/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/compilation_utils/lexer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilation_utils/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/compilation_utils/tokens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.abacus" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abacus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilation_utils/asm_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilation_utils/compiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilation_utils/lexer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilation_utils/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilation_utils/tokens.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fib/fibonacci.abacus" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fib/fibonacci.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fib/fibonacci.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fib/fibonacci.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/std/string.aba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.aba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.obj" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Rust File" />
       </list>
     </option>
   </component>
@@ -36,20 +71,40 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="8caefk3f" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="20FKEzwoUyTAVxMyA36zs9SXGRR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/run/media/rubens/ssd/projects/abacus-lang/examples",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "copyright.filetypes.Less",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ruben\OneDrive\Desktop\space\bofa\examples\fibonacci" />
       <recent name="C:\Users\Ruben\OneDrive\Desktop\space\bofa" />
@@ -106,6 +161,9 @@
       <item itemvalue="Python.bofa_compile" />
     </list>
   </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -131,6 +189,8 @@
       <workItem from="1636523395464" duration="2780000" />
       <workItem from="1636752639826" duration="2533000" />
       <workItem from="1636758317036" duration="8230000" />
+      <workItem from="1690724444935" duration="12179000" />
+      <workItem from="1690736823637" duration="11739000" />
     </task>
     <servers />
   </component>
@@ -147,7 +207,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -158,9 +217,8 @@
       </configuration>
     </watches-manager>
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bofa$bofa_compile.coverage" NAME="bofa_compile Coverage Results" MODIFIED="1635967111852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/bofa$main.coverage" NAME="bofa Coverage Results" MODIFIED="1635700681450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/bofa$bofa.coverage" NAME="bofa Coverage Results" MODIFIED="1635741399268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

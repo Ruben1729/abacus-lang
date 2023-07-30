@@ -1,0 +1,13 @@
+// Fibonacci sequence generator with a while loop
+0 1 while over 1000 < do
+    // 0 1 -> 0 1 0
+    over
+    // 0 1 0 -> 0 1
+    print
+    // 0 1 -> 1 0
+    swap
+    // 1 0 -> 1 0 1
+    over
+    // 1 0 1 -> 1 1
+    +
+endloop

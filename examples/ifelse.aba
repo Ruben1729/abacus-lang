@@ -1,0 +1,9 @@
+50
+
+dup 100 > if
+    10 print
+elif dup 80 >= do
+    20 print
+else
+    30 print
+end

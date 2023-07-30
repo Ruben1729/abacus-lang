@@ -1,0 +1,5 @@
+1
+
+while dup 10 < do
+    1 + dup print
+endloop
